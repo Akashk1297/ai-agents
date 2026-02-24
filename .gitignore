@@ -1,0 +1,4 @@
+ai-agents/venv/*
+ai-agents/vector/db/
+ai-doc-agent/vector_db/
+venv/
