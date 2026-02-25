@@ -10,19 +10,24 @@ This approach is called RAG (Retrieval-Augmented Generation).
 -->
 
 # Install Python (if not installed)
-sudo apt install python3 python3-pip
+```sudo apt install python3 python3-pip
+```
 
 # Create Virtual Environment
-python -m venv venv
+```python -m venv venv
 source venv/scripts/activate
+```
 
 # Install Required Libraries
-pip install langchain chromadb pypdf python-docx sentence-transformers langchain-community langchain-text-splitters langchain-ollama langchain-chroma chromadb
+```pip install langchain chromadb pypdf python-docx sentence-transformers langchain-community langchain-text-splitters langchain-ollama langchain-chroma chromadb
+```
 
 # Pull & run the model
+```
 ollama pull llama3
 ollama pull nomic-embed-text
 ollama run llama3
+```
 
 # Create Project Structure
 ```
@@ -31,7 +36,9 @@ ai-doc-agent/
 ├── data/               # Put internal docs here
 ├── ingest.py           # Loads + embeds docs
 ├── agent.py            # Chat agent
-└── requirements.txt
+├── ReadMe.md
+├── vector_db          
+
 ```
 
 # Create ingest.py
