@@ -1,14 +1,14 @@
-```This project will include:
-Model training
-MLflow model versioning
-FastAPI inference API
-Dockerization
-CI pipeline (GitHub Actions)
-Kubernetes deployment
-Auto validation before deploy```
+# This project will include:
+- Model training
+- MLflow model versioning
+- FastAPI inference API
+- Dockerization
+- CI pipeline (GitHub Actions)
+- Kubernetes deployment
+- Auto validation before deploy
 
 ## Project Structure
-```
+
 mlops-pipeline/
 │
 ├── app/
@@ -29,7 +29,6 @@ mlops-pipeline/
 ├── k8s-deployment.yaml
 ├── .github/workflows/ci.yml
 └── README.md
-```
 
 ## Activate Your Virtual Environment (Recommended)
 
@@ -74,7 +73,6 @@ $ python training/train.py
 ```
 python training/train.py
 ```
-
 
 ## 🚀 Next Step
 
